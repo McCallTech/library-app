@@ -1,16 +1,7 @@
-<<<<<<< HEAD
-// app/routes/libraries/index.js
-=======
->>>>>>> yoember/master
 import Route from '@ember/routing/route';
 
 export default Route.extend({
 
-<<<<<<< HEAD
-  model() {
-    return this.store.findAll('library');
-  },
-=======
   queryParams: {
     limit: { refreshModel: true },
     letter: { refreshModel: true }
@@ -29,7 +20,6 @@ export default Route.extend({
     });
   },
 
->>>>>>> yoember/master
   actions: {
 
     deleteLibrary(library) {

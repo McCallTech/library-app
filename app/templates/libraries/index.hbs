@@ -1,10 +1,4 @@
 <h2>List</h2>
-<<<<<<< HEAD
-<div class="row">
-  {{#each model as |library|}}
-    <div class="col-md-4">
-      {{#library-item item=library}}
-=======
 
 <div class="row">
   <div class="col-md-1">
@@ -31,15 +25,10 @@
   {{#each filteredList as |library|}}
     <div class="col-md-4">
       {{#library-item item=library badge=library.books.length}}
->>>>>>> yoember/master
         {{#link-to 'libraries.edit' library.id class='btn btn-success btn-xs'}}Edit{{/link-to}}
         <button class="btn btn-danger btn-xs" {{action 'deleteLibrary' library}}>Delete</button>
       {{/library-item}}
     </div>
-<<<<<<< HEAD
-  {{/each}}
-</div>
-=======
   {{else}}
     {{#if model.isUpdating}}
       {{spinner-cube}}
@@ -52,4 +41,3 @@
     {{/if}}
   {{/each}}
 </div>
->>>>>>> yoember/master

@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-// app/routes/libraries/new.js
-=======
->>>>>>> yoember/master
 import Route from '@ember/routing/route';
 
 export default Route.extend({
@@ -10,8 +6,6 @@ export default Route.extend({
     return this.store.createRecord('library');
   },
 
-<<<<<<< HEAD
-=======
   setupController(controller, model) {
     this._super(controller, model);
 
@@ -23,7 +17,6 @@ export default Route.extend({
     this.render('libraries/form');
   },
 
->>>>>>> yoember/master
   actions: {
 
     saveLibrary(newLibrary) {

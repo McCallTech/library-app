@@ -6,10 +6,6 @@ moduleFor('route:about', 'Unit | Route | about', {
 });
 
 test('it exists', function(assert) {
-<<<<<<< HEAD
-  let route = this.subject();
-=======
   var route = this.subject();
->>>>>>> yoember/master
   assert.ok(route);
 });

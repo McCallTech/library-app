@@ -22,12 +22,7 @@ module.exports = {
       files: [
         'testem.js',
         'ember-cli-build.js',
-<<<<<<< HEAD
-        'config/**/*.js',
-        'lib/*/index.js'
-=======
         'config/**/*.js'
->>>>>>> yoember/master
       ],
       parserOptions: {
         sourceType: 'script',

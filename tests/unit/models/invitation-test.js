@@ -6,12 +6,7 @@ moduleForModel('invitation', 'Unit | Model | invitation', {
 });
 
 test('it exists', function(assert) {
-<<<<<<< HEAD
-  let model = this.subject();
-  // let store = this.store();
-=======
   var model = this.subject();
   // var store = this.store();
->>>>>>> yoember/master
   assert.ok(!!model);
 });

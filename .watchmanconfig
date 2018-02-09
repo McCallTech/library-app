@@ -1,7 +1,1 @@
-<<<<<<< HEAD
 {"ignore_dirs":["tmp","dist","corber"]}
-=======
-{
-  "ignore_dirs": ["tmp", "dist"]
-}
->>>>>>> yoember/master

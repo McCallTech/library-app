@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-// app/routes/libraries/edit.js
-=======
->>>>>>> yoember/master
 import Route from '@ember/routing/route';
 
 export default Route.extend({
@@ -10,8 +6,6 @@ export default Route.extend({
     return this.store.findRecord('library', params.library_id);
   },
 
-<<<<<<< HEAD
-=======
   setupController(controller, model) {
     this._super(controller, model);
 
@@ -23,7 +17,6 @@ export default Route.extend({
     this.render('libraries/form');
   },
 
->>>>>>> yoember/master
   actions: {
 
     saveLibrary(library) {
@@ -31,10 +24,6 @@ export default Route.extend({
     },
 
     willTransition(transition) {
-<<<<<<< HEAD
-
-=======
->>>>>>> yoember/master
       let model = this.controller.get('model');
 
       if (model.get('hasDirtyAttributes')) {

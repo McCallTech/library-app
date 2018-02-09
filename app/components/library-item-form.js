@@ -4,10 +4,8 @@ export default Component.extend({
   buttonLabel: 'Save',
 
   actions: {
-
     buttonClicked(param) {
       this.sendAction('action', param);
     }
-
   }
 });

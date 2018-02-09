@@ -17,10 +17,19 @@ npm-debug.log*
 yarn-error.log
 testem.log
 
+<<<<<<< HEAD
+=======
+.npmrc
+.firebase-debug.log
+.firebaserc
+
+
+>>>>>>> yoember/master
 # ember-try
 .node_modules.ember-try/
 bower.json.ember-try
 package.json.ember-try
+<<<<<<< HEAD
 
 corber/tmp-livereload
 corber/cordova/node_modules
@@ -32,3 +41,5 @@ corber/cordova/plugins/*
 !corber/cordova/plugins/.gitkeep
 corber/cordova/www/*
 !corber/cordova/www/.gitkeep
+=======
+>>>>>>> yoember/master

@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 // app/routes/libraries/new.js
+=======
+>>>>>>> yoember/master
 import Route from '@ember/routing/route';
 
 export default Route.extend({
@@ -7,6 +10,20 @@ export default Route.extend({
     return this.store.createRecord('library');
   },
 
+<<<<<<< HEAD
+=======
+  setupController(controller, model) {
+    this._super(controller, model);
+
+    controller.set('title', 'Create a new library');
+    controller.set('buttonLabel', 'Create');
+  },
+
+  renderTemplate() {
+    this.render('libraries/form');
+  },
+
+>>>>>>> yoember/master
   actions: {
 
     saveLibrary(newLibrary) {
